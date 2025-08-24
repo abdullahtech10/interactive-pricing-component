@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Interactive pricing component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="bgimage">
+      <h1> Simple, traffic-based pricing</h1>
+      <h4> Sign-up for our 30-day trial. <span class="block"> No credit card required.</span> </h4>
+    </div>
+
+    <div class="card">
+      <div class="view">
+        <h3 class="pageview">100k Pageviews</h3>
+        <p class="para price-desktop"><strong class="price">$16.00</strong> / <span class="discount-type">month</span></p>
+      </div>
+
+      <div class="slider-con">
+           <input type="range" min="0" max="4" value="2" class="slider" id="slider">
+
+            <p class="para price-mobile"><strong class="price">$16.00</strong> / <span class="discount-type">month</span></p>
+      </div>
+
+      <div class="checkbox">
+        <div class="monthly">
+          <p>Monthly Billing</p>
+        </div>
+
+        <div class="check">
+          <input type="checkbox" id="toggle">
+          <label for="toggle" class="toggle-btn"></label>
+        </div>
+
+        <div class="yearly">
+          <p>Yearly Billing <span class="dis"> 25% discount</span> <span class="minus">-25%</span></p>
+        </div>
+      </div>
+
+      <div class="offer-con">
+        <div class="offer">
+          <div class="icon">
+            <img src="/images/icon-check.svg" alt="">
+            <p> Unlimited websites</p>
+          </div>
+          <div class="icon">
+            <img src="/images/icon-check.svg" alt="">
+            <p> 100% data ownership</p>
+          </div>
+          <div class="icon">
+            <img src="/images/icon-check.svg" alt="">
+            <p>Email reports</p>
+          </div>
+        </div>
+
+        <div class="btn">
+          <button>Start my trial</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">ABDULLAH ADISA</a>.
+  </div>
+</body>
+<script src="script.js"></script>
+</html>
