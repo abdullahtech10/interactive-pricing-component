@@ -1,6 +1,7 @@
 const slider = document.querySelector('#slider')
 const pageviewEL = document.querySelector('.pageview')
 const priceEl = document.querySelector('.price')
+const priceMobileEl = document.querySelector('.price-mobile')
 const toggle = document.querySelector('#toggle')
 const discountType = document.querySelector('.discount-type')
 
@@ -25,6 +26,7 @@ function updatePrice(){
 
     pageviewEL.textContent = `${plan.view} pageview`
     priceEl.textContent = `$${price}`
+    priceMobileEl.textContent = `$${price}`
     discountType.textContent = `${billingType}` 
 
 }
