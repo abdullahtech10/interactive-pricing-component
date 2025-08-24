@@ -1,7 +1,7 @@
 const slider = document.querySelector('#slider')
 const pageviewEL = document.querySelector('.pageview')
 const priceEl = document.querySelector('.price')
-const priceMobileEl = document.querySelector('.price-mobile')
+const priceMobileEl = document.querySelector('.price-mob')
 const toggle = document.querySelector('#toggle')
 const discountType = document.querySelector('.discount-type')
 
